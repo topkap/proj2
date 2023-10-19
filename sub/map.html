@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회사위치</title>
+
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/layout-sub.css">
+  <link rel="stylesheet" href="/css/map.css">
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <style>
+    * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 2.5rem;
+      text-align:center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header id="header" class="header">
+      <div class="inner">
+        <h1 class="logo"><a href="/index.html"><img src="/img/logo2.png" alt=""></a></h1>
+        <nav class="gnb">
+          <ul>
+            <li class="depth1"><a href="sub1.html">회사소개</a>
+              <ul class="depth2">
+                <li><a href="sub1.html">개요·연혁</a></li>
+                <li><a href="sub1.html">비전</a></li>
+                <li><a href="sub1.html">CI·상표권</a></li>
+                <li><a href="sub1.html">글로벌 네트워크</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="sub2.html">홍보채널</a>
+              <ul class="depth2">
+                <li><a href="sub2.html">뉴스룸</a></li>
+                <li><a href="sub2.html">홍보자료</a></li>
+                <li><a href="sub2.html">미디어룸</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="sub3.html">사업분야</a>
+              <ul class="depth2">
+                <li><a href="sub3.html">에너지</a></li>
+                <li><a href="sub3.html">철강</a></li>
+                <li><a href="sub3.html">식량</a></li>
+                <li><a href="sub3.html">신성장 사업</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="sub4.html">투자정보</a>
+              <ul class="depth2">
+                <li><a href="sub4.html">Investor Relations</a></li>
+                <li><a href="sub4.html">IR 자료실</a></li>
+                <li><a href="sub4.html">주가정보</a></li>
+                <li><a href="sub4.html">재무정보</a></li>
+                <li><a href="sub4.html">공시 및 공고</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="sub5.html">인재채용</a>
+              <ul class="depth2">
+                <li><a href="sub5.html">인재상</a></li>
+                <li><a href="sub5.html">HR제도</a></li>
+                <li><a href="sub5.html">채용안내</a></li>
+              </ul>
+            </li>
+          </ul>
+          <p class="gnb-bg"></p>
+        </nav>
+        <div class="tnb">
+          <button type="button" class="mobile-btn">
+            <span></span><span></span><span></span><span></span>
+          </button>
+        </div>
+        <div class="mobile">
+          <nav class="mobile-gnb">
+            <ul>
+              <li class="mobile-depth1"><a href="sub1.html">회사소개</a>
+                <ul class="mobile-depth2">
+                  <li><a href="sub1.html">개요·연혁</a></li>
+                  <li><a href="sub1.html">비전</a></li>
+                  <li><a href="sub1.html">CI·상표권</a></li>
+                  <li><a href="sub1.html">글로벌 네트워크</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="sub2.html">홍보채널</a>
+                <ul class="mobile-depth2">
+                  <li><a href="sub2.html">뉴스룸</a></li>
+                  <li><a href="sub2.html">홍보자료</a></li>
+                  <li><a href="sub2.html">미디어룸</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="sub3.html">사업분야</a>
+                <ul class="mobile-depth2">
+                  <li><a href="sub3.html">에너지</a></li>
+                  <li><a href="sub3.html">철강</a></li>
+                  <li><a href="sub3.html">식량</a></li>
+                  <li><a href="sub3.html">신성장 사업</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="sub4.html">투자정보</a>
+                <ul class="mobile-depth2">
+                  <li><a href="sub4.html">Investor Relations</a></li>
+                  <li><a href="sub4.html">IR 자료실</a></li>
+                  <li><a href="sub4.html">주가정보</a></li>
+                  <li><a href="sub4.html">재무정보</a></li>
+                  <li><a href="sub4.html">공시 및 공고</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="sub5.html">인재채용</a>
+                <ul class="mobile-depth2">
+                  <li><a href="sub5.html">인재상</a></li>
+                  <li><a href="sub5.html">HR제도</a></li>
+                  <li><a href="sub5.html">채용안내</a></li>
+                </ul>
+              </li>
+            </ul>
+            <p class="gnb-bg"></p>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="main">
+      <section class="sec top">
+        <h2>회사위치</h2>
+        <p>고객 여러분들의 방문을 기다립니다.</p>
+      </section>
+      <section class="way">
+        <figure class="way-img"></figure>
+      </section>
+      <section class="info">
+        <div id="map" class="map"></div>
+        <div class="info-all">
+          <h3>포스코인터내셔널</h3>
+          <div class="info-list">
+            <ul class="info-tit">
+              <li>주소.</li>
+              <li>대표전화.</li>
+              <li>지하철.</li>
+              <li>버스.</li>
+            </ul>
+            <ul class="info-desc">
+              <li>인천광역시 연수구 컨벤시아대로 165</li>
+              <li>TEL: 02-759-2114 / FAX: 02-3457-6000</li>
+              <li>2호선 선릉역 1번출구, 삼성역 4번 출구</li>
+              <li>좌석 9414, 간선 146, 341, 360, 730 </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="footer">
+      <div class="inner">
+        <h2 class="f-logo"><img src="/img/logo.png" alt="포스코인터내셔널"></h2>
+        <div class="f-all">
+          <div class="f-top">
+            <ul class="f-menu">
+              <li><a href="map.html">개인정보처리방침</a></li>
+              <li><a href="map.html">영상정보방침</a></li>
+              <li><a href="map.html">사이트맵</a></li>
+              <li><a href="map.html">찾아오시는 길</a></li>
+            </ul>
+            <div class="f-contents">
+              <ul class="f-contents-addr">
+                <li><p>(21998) 인천광역시 연수구 컨벤시아대로 165 (포스코타워 송도)</p></li>
+                <li><p>COPYRIGHT(C)2017 POSCO INTERNATIONAL ALL RIGHTS RESERVED</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="f-family">
+            <p class="f-family-tit">그룹사 바로가기</p>
+            <ul class="f-family-box">
+              <li><a href="#">철강</a></li>
+              <li><a href="#">친환경인프라</a></li>
+              <li><a href="#">친환경미래소재</a></li>
+              <li><a href="#">제단및기타</a></li>
+            </ul>
+          </div>
+      </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=db1a053152d8fd294244cd87fd42c7e8"></script>
+  <script src="/js/map.js"></script>
+</body>
+</html>
