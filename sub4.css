@@ -1,0 +1,329 @@
+@charset "UFT - 8";
+
+
+/**********
+MAIN - S
+**********/
+/* TOP - S */
+.top{
+  padding: 185px 210px 0;}
+.top h2{
+  font-weight: 700; font-size: 48px; line-height: 62px;
+}
+.top p{
+  padding-top: 22px;
+  font-size: 18px; line-height: 38px;
+}
+/* TOP - E */
+
+/* SLIDE - S */
+.slide{padding-top: 80px;}
+.slide .slide-visual{background: url(/img/suv4-1.png) center center; width: 100%; height: 600px;
+}
+.slide .slide-list{padding-top: 100px;}
+.slide .slide-list ul{
+  border-top: 1px solid #dddddd;
+  display: flex; align-items: center; justify-content: center
+}
+.slide .slide-list ul li{
+  padding: 26px 40px;
+  font-weight: 700; font-size: 22px; line-height: 40px; color: #ddd;
+}
+.slide .slide-list .slide-stan{
+  border-top: 3px solid #0062ff;
+  color: #0062ff;
+}
+/* SLIDE - E */
+
+/* LIST - S */
+.list{
+  margin: 0 auto;
+  padding-top: 64px;
+}
+.list .list-box{
+  width: 90%;
+    margin: 0 auto;
+  border-top: 3px solid #000;
+}
+.list .list-box .list-tit{
+  width: 100%;
+  margin: 0 auto;
+  /* display: flex; align-items: center; justify-content: center; */
+}
+
+.list .list-tit table{
+  margin: 0 auto;
+  width: 100%;
+}
+.list .list-tit table thead{
+  text-align: center;
+  font-weight: 700; font-size: 20px;
+}
+.list table thead tr{}
+.list table thead tr td{  padding: 25px 0;}
+
+.list table tbody{
+  font-size: 20px;
+}
+.list table tbody tr{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.list table tbody tr td{
+  padding: 25px 0;
+  text-align: center;
+}
+.list .list-name{
+  padding-left: 30px;
+  text-align: left;
+}
+.list .list-down{
+  font-weight: 600; font-size: 16px;
+}
+.list .list-down i{padding-left: 10px;}
+
+/* LIST - E */
+
+/* PAGE - S */
+.page{
+  padding: 80px 0 180px;
+  display: flex; align-items: center; justify-content: center;
+}
+.page i{
+  padding: 0 24px;
+}
+.page .page-num{
+  display: flex; align-items: center; justify-content: center;
+  width: 20%;
+}
+.page .page-num li{
+  padding: 0 14px;
+  font-size: 18px; line-height: 37px;
+}
+.page .page-num .stan{
+  color: #fff;
+  border: 1px solid #000; background-color: #000;
+  border-radius: 90px;
+  cursor: pointer;
+}
+/* PAGE - E */
+/**********
+MAIN - E
+**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********
+1200px
+**********/
+@media screen and (max-width : 1200px){
+
+/* TOP - S */
+.top{
+  padding: 185px 80px 0;}
+.top h2{
+  font-weight: 700; font-size: 48px; line-height: 62px;
+}
+.top p{
+  padding-top: 22px;
+  font-size: 18px; line-height: 38px;
+}
+/* TOP - E */
+
+/* SLIDE - S */
+.slide{padding-top: 80px;}
+.slide .slide-visual{background: url(/img/suv4-1.png) center center; width: 100%; height: 600px;
+}
+.slide .slide-list{padding-top: 100px;}
+.slide .slide-list ul{
+  border-top: 1px solid #dddddd;
+  display: flex; align-items: center; justify-content: center
+}
+.slide .slide-list ul li{
+  padding: 26px 30px;
+  font-weight: 700; font-size: 20px; line-height: 40px;
+}
+/* SLIDE - E */
+
+/* LIST - S */
+.list{
+  margin: 0 auto;
+  padding-top: 64px;
+}
+.list .list-box{
+  width: 90%;
+    margin: 0 auto;
+  border-top: 3px solid #000;
+}
+.list .list-box .list-tit{
+  width: 100%;
+  margin: 0 auto;
+  /* display: flex; align-items: center; justify-content: center; */
+}
+
+.list .list-tit table{
+  margin: 0 auto;
+  width: 100%;
+}
+.list .list-tit table thead{
+  text-align: center;
+  font-weight: 700; font-size: 17px;
+}
+.list table thead tr{}
+.list table thead tr td{  padding: 25px 0;}
+
+.list table tbody{
+  font-size: 17px;
+}
+.list table tbody tr{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.list table tbody tr td{
+  padding: 25px 0;
+  text-align: center;
+}
+.list .list-name{
+  padding-left: 30px;
+  text-align: left;
+}
+.list .list-down{
+  font-weight: 600; font-size: 14px;
+}
+.list .list-down i{padding-left: 10px;}
+/* LIST - E */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********
+700px
+**********/
+@media screen and (max-width : 700px){
+
+/* TOP - S */
+.top{
+  padding: 180px 40px 35px;}
+.top h2{
+  font-weight: 700; font-size: 28px; line-height: 37px;
+}
+.top p{
+  padding-top: 22px;
+  font-size: 15px; line-height: 24px;
+}
+/* TOP - E */
+
+/* SLIDE - S */
+.slide{padding-top: 30px;}
+.slide .slide-visual{background: url(/img/suv4-1.png) center center; width: 100%; height: 300px;
+background-size: cover;
+}
+.slide .slide-list{padding-top: 30px;}
+.slide .slide-list ul{
+  border-top: 1px solid #dddddd;
+  display: flex; align-items: center; justify-content: center
+}
+.slide .slide-list ul li{
+  padding: 20px 18px;
+  font-weight: 700; font-size: 15px; line-height: 40px;
+}
+/* SLIDE - E */
+
+/* LIST - S */
+.list{
+  margin: 0 auto;
+  padding-top: 64px;
+}
+.list .list-box{
+  width: 90%;
+    margin: 0 auto;
+  border-top: 3px solid #000;
+}
+.list .list-box .list-tit{
+  width: 100%;
+  margin: 0 auto;
+  /* display: flex; align-items: center; justify-content: center; */
+}
+
+.list .list-tit table{
+  margin: 0 auto;
+  width: 100%;
+}
+.list .list-tit table thead{
+  text-align: center;
+  font-weight: 700; font-size: 12px;
+}
+.list table thead tr{}
+.list table thead tr td{  padding: 12px 0;}
+
+.list table tbody{
+  font-size: 12px;
+}
+.list table tbody tr{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.list table tbody tr td{
+  padding: 12px 0;
+  text-align: center;
+}
+.list .list-name{
+  padding-left: 30px;
+  text-align: left;
+}
+.list .list-down{
+  font-weight: normal; font-size: 12px;
+}
+.list .list-down i{padding-left: 10px;}
+/* LIST - E */
+
+/* PAGE - S */
+.page{
+  padding: 80px 0 180px;
+  display: flex; align-items: center; justify-content: center;
+}
+.page i{
+  padding: 0 24px;
+}
+.page .page-num{
+  display: flex; align-items: center; justify-content: center;
+  width: 20%;
+}
+.page .page-num li{
+  padding: 0 10px;
+  font-size: 14px; line-height: 27px;
+}
+.page .page-num .stan{
+  color: #fff;
+  border: 1px solid #000; background-color: #000;
+  border-radius: 100px;
+  cursor: pointer;
+}
+/* PAGE - E */
+}

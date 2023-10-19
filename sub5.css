@@ -1,0 +1,196 @@
+@charset "UFT - 8";
+
+/**********
+MAIN - S  
+**********/
+/* TOP - S */
+.top{
+  padding: 185px 210px 0;}
+.top h2{
+  font-weight: 700; font-size: 48px; line-height: 62px;
+}
+.top p{
+  padding-top: 22px;
+  font-size: 18px; line-height: 38px;
+}
+/* TOP - E */
+
+/* TALENT - S */
+.talent{padding-top: 80px;}
+.talent .talent-visual{background: url(/img/suv4-2.png) center center; width: 100%; height: 600px;}
+
+.talent .talent-list{padding-top: 120px;}
+.talent .talent-list ul{display: flex; align-items: center; justify-content: space-between;}
+.talent .talent-list ul li{
+  display: flex; flex-flow: column; align-items: center; justify-content: center;
+  text-align: center;
+}
+.talent .talent-list li:nth-child(1){}
+.talent .talent-list li:nth-child(2){}
+.talent .talent-list li:nth-child(3){}
+.talent .talent-list img{
+  width: 250px; height: 250px;
+  margin-bottom: 50px;
+}
+.talent .talent-list span{
+  font-weight: 700; font-size: 26px; line-height: 50px; color: #0082cf;
+}
+.talent .talent-list p{
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 30px;
+  font-size: 18px; line-height: 32px;
+}
+/* TALENT - E */
+
+/* HR - S */
+.HR{padding: 110px 0 100px;}
+.HR ul{display: flex; align-items: center; justify-content: center;}
+.HR ul li{
+  padding: 0 18px;
+  margin: 0 8px;
+  font-weight: 700; font-size: 19px; line-height: 58px; color: #1e2c62;
+  border: 3px solid #1e2c62; 
+  border-radius: 8px;
+}
+.HR i{padding-left: 20px;}
+/* HR - E */
+
+/**********
+MAIN - E  
+**********/
+
+
+
+
+
+
+
+
+
+
+/**********
+1200px
+**********/
+@media screen and (max-width : 1200px){
+  /* TOP - S */
+.top{
+  padding: 185px 80px 0;}
+.top h2{
+  font-weight: 700; font-size: 48px; line-height: 62px;
+}
+.top p{
+  padding-top: 22px;
+  font-size: 18px; line-height: 38px;
+}
+/* TOP - E */
+
+/* TALENT - S */
+.talent{padding-top: 80px;}
+.talent .talent-visual{background: url(/img/suv4-2.png) center center; width: 100%; height: 600px;}
+
+.talent .talent-list{
+  padding: 120px 40px 0;
+}
+.talent .talent-list ul{display: flex; align-items: center; justify-content: space-between;}
+.talent .talent-list ul li{
+  display: flex; flex-flow: column; align-items: center; justify-content: center;
+  text-align: center;
+}
+.talent .talent-list li:nth-child(1){padding-right: 20px;}
+.talent .talent-list li:nth-child(2){padding-right: 20px;}
+.talent .talent-list li:nth-child(3){padding-right: 0px;}
+.talent .talent-list img{
+  width: 100%; height: 100%;
+  margin-bottom: 50px;
+}
+.talent .talent-list span{
+  font-weight: 700; font-size: 26px; line-height: 50px; color: #0082cf;
+}
+.talent .talent-list p{
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 30px;
+  font-size: 18px; line-height: 32px;
+}
+/* TALENT - E */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********
+700px
+**********/
+@media screen and (max-width : 700px){
+  /* TOP - S */
+.top{
+  padding: 180px 40px 35px;}
+.top h2{
+  font-weight: 700; font-size: 28px; line-height: 37px;
+}
+.top p{
+  padding-top: 22px;
+  font-size: 15px; line-height: 24px;
+}
+/* TOP - E */
+
+/* TALENT - S */
+.talent{padding-top: 80px;}
+.talent .talent-visual{background: url(/img/suv4-2.png) center center; width: 100%; height: 300px;
+  background-size: cover;
+}
+
+.talent .talent-list{
+  padding: 120px 20px 0;
+}
+.talent .talent-list ul{display: flex; flex-flow: column; align-items: center; justify-content: space-between;}
+.talent .talent-list ul li{
+  display: flex; flex-flow: column; align-items: center; justify-content: center;
+  text-align: center;
+}
+.talent .talent-list li:nth-child(1){padding: 0 0 50px 0;}
+.talent .talent-list li:nth-child(2){padding: 0 0 50px 0;}
+.talent .talent-list li:nth-child(3){padding: 0px}
+.talent .talent-list img{
+  width: 250px; height: 250px;
+  margin-bottom: 50px;
+}
+.talent .talent-list span{
+  font-weight: 700; font-size: 26px; line-height: 50px; color: #0082cf;
+}
+.talent .talent-list p{
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 30px;
+  font-size: 18px; line-height: 32px;
+}
+/* TALENT - E */
+
+/* HR - S */
+.HR{padding: 110px 0 100px;}
+.HR ul{display: flex; align-items: center; justify-content: center; flex-flow: column;}
+.HR ul li{
+  padding: 0 18px;
+  margin-bottom: 30px;
+  width: 90%;
+  font-weight: 700; font-size: 19px; line-height: 58px; color: #1e2c62;
+  border: 3px solid #1e2c62; 
+  border-radius: 8px;
+}
+.HR i{padding-left: 20px;}
+/* HR - E */
+}
