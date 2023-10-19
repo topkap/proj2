@@ -20,7 +20,7 @@ MAIN - S
 .way{padding-top: 80px;}
 .way .way-img{
   margin-bottom: 120px;
-  background: url(/img/map.png) center center; height: 600px;
+  background: url(/proj2/img/map.png) center center; height: 600px;
 }
 
 /* WAY - E */
@@ -137,7 +137,7 @@ MAIN - E
 .way{padding-top: 80px;}
 .way .way-img{
   margin-bottom: 120px;
-  background: url(/img/map.png) center center; height: 300px;
+  background: url(/proj2/img/map.png) center center; height: 300px;
   background-size: cover;
 }
 /* WAY - E */
