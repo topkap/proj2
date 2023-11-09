@@ -6,22 +6,31 @@ MAIN - S
 **********/
 
 /* VISUAL - S */
-.visual {}
-.visual .hide {text-indent: -9999px;}
+/* .visual {} */
+.visual .hide {
+  text-indent: -9999px;
+}
 .visual .video-wrap {
-  width: 100%; height: 100vh;
+  width: 100%;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }
 .video-wrap video {
-  position: absolute; left: 50%; top: 0;
+  position: absolute;
+  left: 50%;
+  top: 0;
   transform: translate(-50%, 0);
 }
 .video-wrap figcaption {
-  width: 100%; max-width: 1300px;
+  width: 100%;
+  max-width: 1300px;
   margin: 0 auto;
-  font-weight: 700; font-size: 70px; color: #fff;
-  position: relative; top: 50%;
+  font-weight: 700;
+  font-size: 70px;
+  color: #fff;
+  position: relative;
+  top: 50%;
   z-index: 500;
   text-align: center;
   transform: translate(0, -50%);
@@ -29,151 +38,210 @@ MAIN - S
 /* VISUAL - E */
 
 /* TECH - S */
-.tech {width: 100%; height: 980px;}
-.tech .tech-list {text-align: center;}
-.tech .tech-box {display: flex;}
+.tech {
+  width: 100%;
+  height: 980px;
+}
+.tech .tech-list {
+  text-align: center;
+}
+.tech .tech-box {
+  display: flex;
+}
 
+.tech .tech-box li {
+  position: relative;
+}
+.tech .tech-box li .shadow {
+  background: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.3s;
+  z-index: 50;
+}
+.tech .tech-box li:hover .shadow {
+  opacity: 0;
+}
+.result {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+}
+.tech .result h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+}
+.tech .result ul {
+  display: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+.tech .tech-box li:hover ul {
+  display: block;
+}
 /* box1 */
 .tech .box1 {
   flex: 1;
   height: 980px;
-  background: url(/proj2/img/tech1.png) no-repeat;
-  display: flex; justify-content: center; align-items: center;
+  background: url(/img/tech1.png) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.tech .box1 .shadow {
-  background: #000; opacity: 0.5;
-  width: 25%; height: 980px;
-  position: absolute;
-  transition: all 0.3s;
-}
-.box1:hover .shadow {opacity: 0;}
-
-.tech .box1 .box-txt {
-  text-align: center; color: #fff;
-  z-index: 100;
-}
-.box1 .box-txt h3 {font-weight: 700; font-size: 30px; line-height: 50px;}
-.box1 .box-txt .box-inner {
-  display: none;
-  font-weight: 500; font-size: 18px; line-height: 30px;
-}
-.box1:hover .box-inner {display: block;}
 
 /* box2 */
 .tech .box2 {
   flex: 1;
   height: 980px;
-  background: url(/proj2/img/tech2.png) no-repeat;
-  display: flex; justify-content: center; align-items: center;
+  background: url(/img/tech2.png) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.tech .box2 .shadow {
-  background: #000; opacity: 0.5;
-  width: 25%; height: 980px;
-  position: absolute;
-  transition: all 0.3s;
-}
-.box2:hover .shadow {opacity: 0;}
-.tech .box2 .box-txt {
-  text-align: center; color: #fff;
-  z-index: 100;
-}
-.box2 .box-txt h3 {font-weight: 700; font-size: 30px; line-height: 50px;}
-.box2 .box-txt .box-inner {
-  display: none;
-  font-weight: 500; font-size: 18px; line-height: 30px;
-  transition: all 0.3s;
-}
-.box2:hover .box-inner {display: block;}
 
 /* box3 */
 .tech .box3 {
   flex: 1;
   height: 980px;
-  background: url(/proj2/img/tech3.png) no-repeat;
-  display: flex; justify-content: center; align-items: center;
+  background: url(/img/tech3.png) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.tech .box3 .shadow {
-  background: #000; opacity: 0.5;
-  width: 25%; height: 980px;
-  position: absolute;
-  transition: all 0.3s;
-}
-.box3:hover .shadow {opacity: 0;}
-.tech .box3 .box-txt {
-  text-align: center; color: #fff;
-  z-index: 100;
-}
-.box3 .box-txt h3 {font-weight: 700; font-size: 30px; line-height: 50px;}
-.box3 .box-txt .box-inner {
-  display: none;
-  font-weight: 500; font-size: 18px; line-height: 30px;
-}
-.box3:hover .box-inner {display: block;}
 
 /* box4 */
 .tech .box4 {
   flex: 1;
   height: 980px;
-  background: url(/proj2/img/tech4.png) no-repeat;
-  display: flex; justify-content: center; align-items: center;
+  background: url(/img/tech4.png) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.tech .box4 .shadow {
-  background: #000; opacity: 0.5;
-  width: 25%; height: 980px;
-  position: absolute;
-  transition: all 0.3s;
-}
-.box4:hover .shadow {opacity: 0;}
-.tech .box4 .box-txt {
-  text-align: center; color: #fff;
-  z-index: 100;
-}
-.box4 .box-txt h3 {font-weight: 700; font-size: 30px; line-height: 50px;}
-.box4 .box-txt .box-inner {
-  display: none;
-  font-weight: 500; font-size: 18px; line-height: 30px;}
-.box4:hover .box-inner {display: block;}
 /* TECH - E */
 
 /* NEWS - S */
 .news {
   padding: 214px 60px 0;
-  display: flex; flex-flow: column; align-items: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
-.news .tit {font-weight: 700; font-size: 60px; line-height: 86px;}
-.news .news-box {padding-top: 90px;}
+.news .tit {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 86px;
+}
+.news .news-box {
+  padding-top: 90px;
+}
 .news .news-box .box-list {
   display: flex;
   justify-content: center;
 }
-.news .news-box .box-list li {padding: 0 15px;}
-.news .box1 {}
-.news .box1 .box-inner {}
-.news .box1 .box-inner img {width: 100%; height: 420px;}
+.news .news-box .box-list li {
+  padding: 0 15px;
+  cursor: pointer;
+
+}
+
+.news .result2 img {
+  width: 100%;
+  height: 420px;
+}
+
+.news .result2 h2 {
+  padding: 30px 0 60px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.news .result2 {
+  transition: all 0.3s;
+}
+.news .result2:hover {
+  opacity: 0.3;
+}
+.news .result2 span {
+  font-size: 16px;
+}
+.news .box1 .box-inner img {
+  width: 100%;
+  height: 420px;
+}
+
 .news .box1 .box-inner h3 {
   padding: 30px 0 60px;
-  font-weight: 600; font-size: 20px;
+  font-weight: 600;
+  font-size: 20px;
 }
-.news .box1 .box-inner span {font-size: 16px;}
+.news .box1 .box-inner {
+  transition: all 0.3s;
+}
+.news .box1:hover .box-inner {
+  opacity: 0.3;
+}
+.news .box1 .box-inner span {
+  font-size: 16px;
+}
 
-.news .box2 {}
-.news .box2 .box-inner {}
-.news .box2 .box-inner img {width: 100%; height: 420px;}
+
+.news .box2 a {
+  overflow: hidden;
+  display: block;
+}
+
+.news .box2 .box-inner img {
+  width: 100%;
+  height: 420px;
+}
 .news .box2 .box-inner h3 {
   padding: 30px 0 60px;
-  font-weight: 600; font-size: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.news .box2 .box-inner {
+  transition: all 0.3s;
+}
+.news .box2:hover .box-inner {
+  opacity: 0.3;
 }
 .news .box2 .box-inner span {
   font-size: 16px;
   padding-bottom: 30px;
 }
 
-.news .box3 {}
-.news .box3 .box-inner {}
-.news .box3 .box-inner img {width: 100%; height: 420px;}
+
+.news .box3 a {
+
+  overflow: hidden;
+  display: block;
+}
+
+.news .box3 .box-inner img {
+  width: 100%;
+  height: 420px;
+}
 .news .box3 .box-inner h3 {
   padding: 30px 0 60px;
-  font-weight: 600; font-size: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.news .box3 .box-inner {
+  transition: all 0.3s;
+}
+.news .box3:hover .box-inner {
+  opacity: 0.3;
 }
 .news .box3 .box-inner span {
   font-size: 16px;
@@ -184,17 +252,36 @@ MAIN - S
 /* GLOBAL - S */
 .global {
   padding-top: 330px;
-  display: flex; flex-flow: column; justify-content: center; align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
-.global .global-txt {text-align: center;}
-.global .global-txt .tit {font-weight: 700; font-size: 60px; line-height: 86px;}
+.global .global-txt {
+  text-align: center;
+}
+.global .global-txt .tit {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 86px;
+}
 .global .global-txt .num {
   padding-top: 66px;
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 600; font-size: 36px; line-height: 64px; color: #00578A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 64px;
+  color: #00578A;
 }
-.global .global-txt .num li {padding: 0 15px;}
-.global .global-txt .add {font-size: 20px; line-height: 32px;}
+.global .global-txt .num li {
+  padding: 0 15px;
+}
+.global .global-txt .add {
+  font-size: 20px;
+  line-height: 32px;
+}
 .global .global-img {
   width: 100%;
   margin-top: 60px;
@@ -204,7 +291,9 @@ MAIN - S
 /* ESG - S */
 .esg {
   padding: 110px 60px 0;
-  display: flex; flex-flow: column; align-items: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 .esg .tit {
   font-weight: 700;
@@ -223,6 +312,11 @@ MAIN - S
 .esg-box .esg-box1 .box1 {
   flex: 1;
   display: flex;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.esg-box .esg-box1 .box1:hover {
+  opacity: 0.5;
 }
 .esg-box .esg-box1 .box1 img {
   width: 345px;
@@ -246,6 +340,11 @@ MAIN - S
   flex: 1;
   display: flex;
   padding-left: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.esg-box .esg-box1 .box2:hover {
+  opacity: 0.5;
 }
 .esg-box .esg-box1 .box2 img {
   width: 345px;
@@ -272,7 +371,11 @@ MAIN - S
 .esg-box .esg-box2 .box3 {
   flex: 1;
   display: flex;
-
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.esg-box .esg-box2 .box3:hover {
+  opacity: 0.5;
 }
 .esg-box .esg-box2 .box3 img {
   width: 345px;
@@ -297,6 +400,11 @@ MAIN - S
   flex: 1;
   display: flex;
   padding-left: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.esg-box .esg-box2 .box4:hover {
+  opacity: 0.5;
 }
 .esg-box .esg-box2 .box4 img {
   width: 345px;
@@ -334,174 +442,12 @@ MAIN - E
 @media screen and (max-width : 1200px) {
 
   /* TECH - S */
-  .tech {
-    width: 100%;
-    height: 780px;
-  }
-  .tech .tech-list {
-    text-align: center;
-  }
-  .tech .tech-box {
-    display: flex;
-  }
 
-  /* box1 */
-  .tech .box1 {
-    flex: 1;
-    height: 780px;
-    background: url(/proj2/img/tech1.png) no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .tech .box1 .shadow {
-    background: #000;
-    opacity: 0.5;
-    width: 25%;
-    height: 780px;
-    position: absolute;
-    transition: all 0.3s;
-  }
-  .box1:hover .shadow {
-    opacity: 0;
-  }
-
-  .tech .box1 .box-txt {
-    text-align: center;
-    color: #fff;
-  }
-  .box1 .box-txt h3 {
-    font-weight: 700;
+  .tech .result h2 {
     font-size: 24px;
-    line-height: 50px;
-  }
-  .box1 .box-txt .box-inner {
-    display: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .box1:hover .box-inner {
-    display: block;
   }
 
-  /* box2 */
-  .tech .box2 {
-    flex: 1;
-    height: 780px;
-    background: url(/proj2/img/tech2.png) no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .tech .box2 .shadow {
-    background: #000;
-    opacity: 0.5;
-    width: 25%;
-    height: 780px;
-    position: absolute;
-    transition: all 0.3s;
-  }
-  .box2:hover .shadow {
-    opacity: 0;
-  }
-  .tech .box2 .box-txt {
-    text-align: center;
-    color: #fff;
-  }
-  .box2 .box-txt h3 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 50px;
-  }
-  .box2 .box-txt .box-inner {
-    display: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    transition: all 0.3s;
-  }
-  .box2:hover .box-inner {
-    display: block;
-  }
 
-  /* box3 */
-  .tech .box3 {
-    flex: 1;
-    height: 780px;
-    background: url(/proj2/img/tech3.png) no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .tech .box3 .shadow {
-    background: #000;
-    opacity: 0.5;
-    width: 25%;
-    height: 780px;
-    position: absolute;
-    transition: all 0.3s;
-  }
-  .box3:hover .shadow {
-    opacity: 0;
-  }
-  .tech .box3 .box-txt {
-    text-align: center;
-    color: #fff;
-  }
-  .box3 .box-txt h3 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 50px;
-  }
-  .box3 .box-txt .box-inner {
-    display: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .box3:hover .box-inner {
-    display: block;
-  }
-
-  /* box4 */
-  .tech .box4 {
-    flex: 1;
-    height: 780px;
-    background: url(/proj2/img/tech4.png) no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .tech .box4 .shadow {
-    background: #000;
-    opacity: 0.5;
-    width: 25%;
-    height: 780px;
-    position: absolute;
-    transition: all 0.3s;
-  }
-  .box4:hover .shadow {
-    opacity: 0;
-  }
-  .tech .box4 .box-txt {
-    text-align: center;
-    color: #fff;
-  }
-  .box4 .box-txt h3 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 50px;
-  }
-  .box4 .box-txt .box-inner {
-    display: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .box4:hover .box-inner {
-    display: block;
-  }
   /* TECH - E */
 
   /* NEWS - S */
@@ -530,9 +476,9 @@ MAIN - E
   .news .box1 {
     flex: 1;
   }
-  .news .box1 .box-inner {
-    /* width: 100%; height: 300px; */
-  }
+  /* .news .box1 .box-inner {
+    width: 100%; height: 300px;
+  } */
   .news .box1 .box-inner img {
     width: 100%;
     height: 300px;
@@ -549,7 +495,7 @@ MAIN - E
   .news .box2 {
     flex: 1;
   }
-  .news .box2 .box-inner {}
+  /* .news .box2 .box-inner {} */
   .news .box2 .box-inner img {
     width: 100%;
     height: 300px;
@@ -567,7 +513,7 @@ MAIN - E
   .news .box3 {
     flex: 1;
   }
-  .news .box3 .box-inner {}
+  /* .news .box3 .box-inner {} */
   .news .box3 .box-inner img {
     width: 100%;
     height: 300px;
@@ -756,180 +702,70 @@ MAIN - E
 @media screen and (max-width : 700px) {
 
   /* TECH - S */
-  .tech {
-    width: 100%;
-    height: 980px;
-  }
+
   .tech .tech-list {
     text-align: center;
   }
   .tech .tech-box {
     display: flex;
     flex-flow: column;
+    height: 980px;
   }
 
+
+  .tech .result h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .tech .result ul {
+    display: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .tech .tech-box li:hover ul {
+    display: block;
+  }
   /* box1 */
   .tech .box1 {
     flex: 1;
     width: 100%;
-    height: 100%;
-    background: url(/proj2/img/tech1-1.png) no-repeat;
+    height: 245px;
+    background: url(/img/tech1-1.png) no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .tech .box1 .shadow {
-    /* display: none; */
-    background: #000;
-    opacity: 0.5;
-    width: 100%;
-    height: 270px;
-    position: absolute;
-    transition: all 0.3s;
-  }
-  .box1:hover .shadow {
-    opacity: 0;
-  }
-
-  .tech .box1 .box-txt {
-    text-align: center;
-    color: #fff;
-    padding: 110px 0;
-    z-index: 100;
-  }
-  .box1 .box-txt h3 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 50px;
-  }
-  .box1 .box-txt .box-inner {
-    display: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-  }
-  /* .box1:hover .box-inner{display: block;} */
 
   /* box2 */
   .tech .box2 {
     flex: 1;
-    height: 980px;
-    background: url(/proj2/img/tech2-1.png) no-repeat;
+    height: 245px;
+    background: url(/img/tech2-1.png) no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .tech .box2 .shadow {
-    /* display: none; */
-    background: #000;
-    opacity: 0.5;
-    width: 100%;
-    height: 270px;
-    position: absolute;
-    transition: all 0.3s;
-  }
-  .box2:hover .shadow {
-    opacity: 0;
-  }
-  .tech .box2 .box-txt {
-    text-align: center;
-    color: #fff;
-    padding: 110px 0;
-    z-index: 100;
-  }
-  .box2 .box-txt h3 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 50px;
-  }
-  .box2 .box-txt .box-inner {
-    display: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    transition: all 0.3s;
-  }
-  /* .box2:hover .box-inner{display: block;} */
 
   /* box3 */
   .tech .box3 {
     flex: 1;
-    height: 980px;
-    background: url(/proj2/img/tech3-1.png) no-repeat;
+    height: 245px;
+    background: url(/img/tech3-1.png) no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .tech .box3 .shadow {
-    /* display: none; */
-    background: #000;
-    opacity: 0.5;
-    width: 100%;
-    height: 270px;
-    position: absolute;
-    transition: all 0.3s;
-  }
-  .box3:hover .shadow {
-    opacity: 0;
-  }
-  .tech .box3 .box-txt {
-    text-align: center;
-    color: #fff;
-    padding: 110px 0;
-    z-index: 100;
-  }
-  .box3 .box-txt h3 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 50px;
-  }
-  .box3 .box-txt .box-inner {
-    display: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-  }
-  /* .box3:hover .box-inner{display: block;} */
 
   /* box4 */
   .tech .box4 {
     flex: 1;
-    height: 980px;
-    background: url(/proj2/img/tech4-1.png) no-repeat;
+    height: 245px;
+    background: url(/img/tech4-1.png) no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .tech .box4 .shadow {
-    /* display: none; */
-    background: #000;
-    opacity: 0.5;
-    width: 100%;
-    height: 270px;
-    position: absolute;
-    transition: all 0.3s;
-  }
-  .box4:hover .shadow {
-    opacity: 0;
-  }
-  .tech .box4 .box-txt {
-    text-align: center;
-    color: #fff;
-    padding: 110px 0;
-    z-index: 100;
-  }
-  .box4 .box-txt h3 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 50px;
-  }
-  .box4 .box-txt .box-inner {
-    display: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-  }
-  /* .box4:hover .box-inner{display: block;} */
   /* TECH - E */
 
   /* NEWS - S */
@@ -959,7 +795,7 @@ MAIN - E
   .news .box1 {
     flex: 1;
   }
-  .news .box1 .box-inner {}
+  /* .news .box1 .box-inner {} */
   .news .box1 .box-inner img {
     width: 100%;
     height: 300px;
@@ -977,7 +813,7 @@ MAIN - E
   .news .box2 {
     flex: 1;
   }
-  .news .box2 .box-inner {}
+  /* .news .box2 .box-inner {} */
   .news .box2 .box-inner img {
     width: 100%;
     height: 300px;
@@ -995,7 +831,7 @@ MAIN - E
   .news .box3 {
     flex: 1;
   }
-  .news .box3 .box-inner {}
+  /* .news .box3 .box-inner {} */
   .news .box3 .box-inner img {
     width: 100%;
     height: 300px;
