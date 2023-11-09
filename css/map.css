@@ -35,7 +35,7 @@ MAIN - S
 }
 .way .way-img {
   margin-bottom: 120px;
-  background: url(/img/map.png) center center;
+  background: url(/pdoj2/img/map.png) center center;
   height: 600px;
 }
 
@@ -203,7 +203,7 @@ MAIN - E
   }
   .way .way-img {
     margin-bottom: 120px;
-    background: url(/img/map.png) center center;
+    background: url(/pdoj2/img/map.png) center center;
     height: 300px;
     background-size: cover;
   }

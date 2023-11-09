@@ -27,7 +27,7 @@ MAIN - S
   text-indent: -999px;
 }
 .talent .talent-visual {
-  background: url(/img/suv4-2.png) center center;
+  background: url(/proj2/img/suv4-2.png) center center;
   width: 100%;
   height: 600px;
 }
@@ -135,7 +135,7 @@ MAIN - E
     padding-top: 80px;
   }
   .talent .talent-visual {
-    background: url(/img/suv4-2.png) center center;
+    background: url(/proj2/img/suv4-2.png) center center;
     width: 100%;
     height: 600px;
   }
@@ -226,7 +226,7 @@ MAIN - E
     padding-top: 80px;
   }
   .talent .talent-visual {
-    background: url(/img/suv4-2.png) center center;
+    background: url(/proj2/img/suv4-2.png) center center;
     width: 100%;
     height: 300px;
     background-size: cover;

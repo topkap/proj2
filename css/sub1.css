@@ -31,7 +31,7 @@ MAIN - S
 
   width: 100%;
   height: 944px;
-  background: url(/img/sub_visual_1.jpg);
+  background: url(/pdoj2/img/sub_visual_1.jpg);
 }
 .about .about-visual .about-tit {
   padding-top: 100px;
@@ -158,7 +158,7 @@ MAIN - S
 
 /* VALUE - S */
 .value {
-  background: url(/img/sub_visual_2.jpg);
+  background: url(/pdoj2/img/sub_visual_2.jpg);
   width: 100%;
   height: 810px;
   text-align: center;
@@ -396,7 +396,7 @@ MAIN - E
 
     width: 100%;
     height: 944px;
-    background: url(/img/sub_visual_1.jpg);
+    background: url(/pdoj2/img/sub_visual_1.jpg);
   }
   .about .about-visual .about-tit {
     padding-top: 100px;
@@ -492,7 +492,7 @@ MAIN - E
 
   /* VALUE - S */
   .value {
-    background: url(/img/sub_visual_2.jpg);
+    background: url(/proj2/img/sub_visual_2.jpg);
     width: 100%;
     height: 810px;
     text-align: center;
@@ -777,7 +777,7 @@ MAIN - E
 
   /* VALUE - S */
   .value {
-    background: url(/img/sub_visual_2.jpg);
+    background: url(/pdoj2/img/sub_visual_2.jpg);
     width: 100%;
     height: 810px;
     text-align: center;
