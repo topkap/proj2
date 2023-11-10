@@ -18,8 +18,11 @@
   <link rel="stylesheet" href="/proj2/css/layout.css">
   <link rel="stylesheet" href="/proj2/css/main.css">
   <link rel="stylesheet" href="/proj2/css/quick.css">
+  <link rel="stylesheet" href="/proj2/css/modal.css">
+  <link rel="stylesheet" href="/proj2/css/modal-btn.css">
   <script defer src="/proj2/js/quick.js"></script>
   <script defer src="/proj2/js/sec1.js"></script>
+  <script defer src="/proj2/js/modal.js"></script>
 
 
 </head>
@@ -54,12 +57,12 @@
                 <li><a href="/proj2/sub/sub3.html">신성장 사업</a></li>
               </ul>
             </li>
-            <li class="depth1"><a href="sub/sub4.html">투자정보</a>
+            <li class="depth1"><a href="/proj2/sub/sub4.html">투자정보</a>
               <ul class="depth2">
-                <li><a href="sub/sub4.html">IR 자료실</a></li>
-                <li><a href="sub/sub4.html">주가정보</a></li>
-                <li><a href="sub/sub4.html">재무정보</a></li>
-                <li><a href="sub/sub4.html">공시 및 공고</a></li>
+                <li><a href="/proj2/sub/sub4.html">IR 자료실</a></li>
+                <li><a href="/proj2/sub/sub4.html">주가정보</a></li>
+                <li><a href="/proj2/sub/sub4.html">재무정보</a></li>
+                <li><a href="/proj2/sub/sub4.html">공시 및 공고</a></li>
               </ul>
             </li>
             <li class="depth1"><a href="/proj2/sub/sub5.html">인재채용</a>
@@ -156,7 +159,6 @@
         <div class="news-box">
           <ul class="box-list">
             <li class="box1"><a href="/proj2/sub/sub2.html">
-                <div class="result"></div>
                 <div class="box-inner">
                   <figure><img src="/proj2/img/news1.png" alt=""></figure>
                   <h3>‘신사업 공모제도’로 성장동력 찾는다</h3>
@@ -165,7 +167,6 @@
               </a>
             </li>
             <li class="box2"><a href="/proj2/sub/sub2.html">
-                <div class="result"></div>
                 <div class="box-inner">
                   <figure><img src="/proj2/img/news2.png" alt=""></figure>
                   <h3>시민들과 탁구대회 통해 ‘부산엑스포 유치’ 한마음 기원</h3>
@@ -174,7 +175,6 @@
               </a>
             </li>
             <li class="box3"><a href="/proj2/sub/sub2.html">
-                <div class="result"></div>
                 <div class="box-inner">
                   <figure><img src="/proj2/img/news3.png" alt=""></figure>
                   <h3>현대차그룹에 차세대 전기차 구동모터코아 353만대 공급</h3>
@@ -194,6 +194,18 @@
           </ul>
           <p class="add">('23년 6월 기준, 기타 지분투자 제외')</p>
         </header>
+        <button id="open">view</button>
+
+        <div id="modal-box">
+          <div id="modal-contents">
+            <button id="close">&times;</button>
+            <h1 id="title">Korea</h1>
+            <div id="profile">
+              <a href="/proj2/sub/map.html"><img class="map_click" src="/proj2/img/map_click.png" alt="map"></a>
+              <img src="/proj2/img/global1.png" alt="Korea">
+            </div>
+          </div>
+        </div>
         <div class="global-img">
           <figure><img src="/proj2/img/main_sec_04_img.jpg" alt=""></figure>
         </div>
@@ -275,7 +287,6 @@
       </div>
     </footer>
   </div>
-
 </body>
 
 </html>

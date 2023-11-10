@@ -47,9 +47,7 @@ MAIN - S
   justify-content: center;
   text-align: center;
 }
-/* .talent .talent-list li:nth-child(1){} */
-/* .talent .talent-list li:nth-child(2){} */
-/* .talent .talent-list li:nth-child(3){} */
+
 .talent .talent-list img {
   width: 250px;
   height: 250px;
