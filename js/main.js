@@ -1,24 +1,27 @@
 let xhr = new XMLHttpRequest();
-xhr.open("GET", "sub4.json");
+xhr.open("GET", "main.json");
 xhr.send();
 
 xhr.onreadystatechange = function () {
   if (xhr.readyState === 4 && xhr.status === 200) {
-    let list = JSON.parse(xhr.responseText);
+    let techs = JSON.parse(xhr.responseText);
 
     let results = document.querySelectorAll(".result");
     results.forEach((result, index) => {
       let output = "";
       output += `
-        <tr>
-          <td>${list[index].num}</td>
-          <td class="list-name">${list[index].name}</td>
-          <td>${list[index].date}</td>
-          <td class="list-down">${list[index].txt}<i class="xi-file-download-o"></i></td>
-        </tr>
+        <h2>${techs[index].name}</h2>
+        <ul>
+          <li>${techs[index].con1}</li>
+          <li>${techs[index].con2}</li>
+          <li>${techs[index].con3}</li>
+          <li>${techs[index].con4}</li>
+        </ul>
       `;
       result.innerHTML = output;
     });
 
   }
 };
+
+

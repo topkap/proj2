@@ -1,0 +1,405 @@
+@charset "UFT - 8";
+
+/**********
+MAIN - S
+**********/
+/* TOP - S */
+.top {
+  padding: 185px 210px 0;
+}
+.top h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+}
+.top p {
+  padding-top: 22px;
+  font-size: 18px;
+  line-height: 38px;
+}
+/* TOP - E */
+
+/* TALENT - S */
+.esg {
+  padding-top: 80px;
+  display: flex;
+  flex-flow: column;
+}
+.esg h2 {
+  text-indent: -999px;
+}
+.esg .esg-visual {
+  background: url(/proj2/img/suv6.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.esg h3 {
+  padding: 100px 210px 0;
+  font-weight: 600;
+  font-size: 48px;
+  color: #005c9c;
+}
+
+.esg .esg-content {
+  padding: 0 40px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.esg .esg-content ul {
+  display: flex;
+}
+.esg .esg-content ul li {
+  padding: 10px;
+  flex: 1;
+}
+.esg .esg-content img {
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.esg .esg-content .btn p {
+  padding: 18px;
+  font-size: 16px;
+}
+.esg .esg-content a {
+  transition: all 0.3s;
+}
+.esg .esg-content a:hover {
+  opacity: 0.5;
+}
+
+/* MODAL - S */
+
+.esg .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 80px 40px;
+  border: 1px solid #888;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.close {
+  color: #555;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.result h3 {
+  font-size: 30px;
+  padding: 0 0 50px 0;
+  color: #000;
+}
+.result p {
+  line-height: 30px;
+  color: #555;
+}
+.result span {
+  font-weight: 700;
+  font-size: 20px;
+  color: #005c9c;
+  line-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+/**********
+max-width:1200px
+**********/
+@media screen and (max-width:1200px) {
+  /**********
+MAIN - S
+**********/
+  /* TOP - S */
+  .top {
+    padding: 185px 80px 0;
+  }
+  .top h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .top p {
+    padding-top: 22px;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  /* TOP - E */
+
+  /* TALENT - S */
+  .esg {
+    padding-top: 80px;
+    display: flex;
+    flex-flow: column;
+  }
+  .esg h2 {
+    text-indent: -999px;
+  }
+  .esg .esg-visual {
+    background: url(/proj2/img/suv6.jpg) center center;
+    width: 100%;
+    height: 600px;
+  }
+  .esg h3 {
+    padding: 50px 40px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #005c9c;
+  }
+
+  .esg .esg-content {
+    padding: 0 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .esg .esg-content ul {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+  }
+  .esg .esg-content ul li {
+    padding: 10px;
+    flex: 1;
+  }
+  .esg .esg-content img {
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  .esg .esg-content .btn p {
+    padding: 18px;
+    font-size: 20px;
+  }
+  .esg .esg-content a {
+    transition: all 0.3s;
+    width: 100%;
+  }
+  .esg .esg-content a:hover {
+    opacity: 0.5;
+  }
+
+  /* MODAL - S */
+
+  .esg .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 60px 30px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 30px;
+  }
+
+  .close {
+    color: #555;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .result h3 {
+    font-size: 20px;
+    padding: 0 0 50px 0;
+    color: #000;
+  }
+  .result p {
+    line-height: 30px;
+    color: #555;
+  }
+  .result span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #005c9c;
+    line-height: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********
+max-width:700px
+**********/
+@media screen and (max-width:700px) {
+
+  /* TOP - S */
+  .top {
+    padding: 180px 40px 35px;
+  }
+  .top h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+  }
+  .top p {
+    padding-top: 22px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  /* TOP - E */
+
+  /* TALENT - S */
+  .esg {
+    padding-top: 80px;
+    display: flex;
+    flex-flow: column;
+  }
+  .esg h2 {
+    text-indent: -999px;
+  }
+  .esg .esg-visual {
+    background: url(/proj2/img/suv6.jpg) center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+  .esg h3 {
+    padding: 50px 40px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #005c9c;
+  }
+
+  .esg .esg-content {
+    padding: 0 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .esg .esg-content ul {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  .esg .esg-content ul li {
+    padding: 10px;
+    flex: 1;
+  }
+  .esg .esg-content img {
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  .esg .esg-content .btn p {
+    padding: 18px;
+    font-size: 20px;
+  }
+  .esg .esg-content a {
+    transition: all 0.3s;
+    width: 100%;
+  }
+  .esg .esg-content a:hover {
+    opacity: 0.5;
+  }
+
+  /* MODAL - S */
+
+  .esg .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 40px 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 30px;
+  }
+
+  .close {
+    color: #555;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .result h3 {
+    font-size: 20px;
+    padding: 0 0 50px 0;
+    color: #000;
+  }
+  .result p {
+    line-height: 30px;
+    color: #555;
+  }
+  .result span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #005c9c;
+    line-height: 100px;
+  }
+}

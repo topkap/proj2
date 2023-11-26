@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.global p {
+  margin: 20px;
+  font-size: 2em;
+}
+
 .global button {
   background-color: #00578A;
   color: #fff;
@@ -41,7 +52,7 @@
 .global #modal-contents button {
   background-color: #fff;
   color: #ccc;
-  font-size: 20px;
+  font-size: 25px;
   border: none;
   outline: none;
   position: absolute;
@@ -50,7 +61,7 @@
   cursor: pointer;
 }
 
-.global h1 {
+.global h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }

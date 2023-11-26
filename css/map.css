@@ -36,6 +36,7 @@ MAIN - S
 .way .way-img {
   margin-bottom: 120px;
   background: url(/proj2/img/map.png) center center;
+  background-size: cover;
   height: 600px;
 }
 

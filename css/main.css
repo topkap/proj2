@@ -5,8 +5,7 @@
 MAIN - S
 **********/
 
-/* VISUAL - S */
-/* .visual {} */
+
 .visual .hide {
   text-indent: -9999px;
 }
@@ -15,12 +14,14 @@ MAIN - S
   height: 100vh;
   position: relative;
   overflow: hidden;
+  
 }
 .video-wrap video {
   position: absolute;
   left: 50%;
   top: 0;
   transform: translate(-50%, 0);
+  
 }
 .video-wrap figcaption {
   width: 100%;
@@ -41,6 +42,10 @@ MAIN - S
 .tech {
   width: 100%;
   height: 980px;
+}
+.tech h3 {
+  position: absolute;
+  text-indent: -9999px;
 }
 .tech .tech-list {
   text-align: center;
@@ -95,6 +100,7 @@ MAIN - S
   flex: 1;
   height: 980px;
   background: url(/proj2/img/tech1.png) no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,6 +111,7 @@ MAIN - S
   flex: 1;
   height: 980px;
   background: url(/proj2/img/tech2.png) no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,6 +122,7 @@ MAIN - S
   flex: 1;
   height: 980px;
   background: url(/proj2/img/tech3.png) no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,6 +133,7 @@ MAIN - S
   flex: 1;
   height: 980px;
   background: url(/proj2/img/tech4.png) no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,14 +311,13 @@ MAIN - S
 }
 .esg .esg-box {
   padding-top: 90px;
-  /* display: flex; align-items: center; justify-content: center;  */
 
 }
 .esg .esg-box .esg-box1 {
   display: flex;
   padding: 20px 20px;
 }
-.esg-box .esg-box1 .box1 {
+.esg-box .esg-box1 .box1 a {
   flex: 1;
   display: flex;
   cursor: pointer;
@@ -336,7 +344,7 @@ MAIN - S
   line-height: 20px;
 }
 
-.esg-box .esg-box1 .box2 {
+.esg-box .esg-box1 .box2 a {
   flex: 1;
   display: flex;
   padding-left: 40px;
@@ -368,7 +376,7 @@ MAIN - S
   display: flex;
   padding: 20px 20px;
 }
-.esg-box .esg-box2 .box3 {
+.esg-box .esg-box2 .box3 a {
   flex: 1;
   display: flex;
   cursor: pointer;
@@ -396,7 +404,7 @@ MAIN - S
   line-height: 20px;
 }
 
-.esg-box .esg-box2 .box4 {
+.esg-box .esg-box2 .box4 a {
   flex: 1;
   display: flex;
   padding-left: 40px;
@@ -588,7 +596,7 @@ MAIN - E
     display: flex;
     padding: 20px 20px;
   }
-  .esg-box .esg-box1 .box1 {
+  .esg-box .esg-box1 .box1 a {
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -611,7 +619,7 @@ MAIN - E
     line-height: 20px;
   }
 
-  .esg-box .esg-box1 .box2 {
+  .esg-box .esg-box1 .box2 a {
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -639,7 +647,7 @@ MAIN - E
     display: flex;
     padding: 20px 20px;
   }
-  .esg-box .esg-box2 .box3 {
+  .esg-box .esg-box2 .box3 a {
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -663,7 +671,7 @@ MAIN - E
     line-height: 20px;
   }
 
-  .esg-box .esg-box2 .box4 {
+  .esg-box .esg-box2 .box4 a {
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -907,7 +915,7 @@ MAIN - E
     flex-flow: column;
     padding: 20px 20px;
   }
-  .esg-box .esg-box1 .box1 {
+  .esg-box .esg-box1 .box1 a {
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -930,7 +938,7 @@ MAIN - E
     line-height: 20px;
   }
 
-  .esg-box .esg-box1 .box2 {
+  .esg-box .esg-box1 .box2 a {
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -959,7 +967,7 @@ MAIN - E
     flex-flow: column;
     padding: 20px 20px;
   }
-  .esg-box .esg-box2 .box3 {
+  .esg-box .esg-box2 .box3 a {
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -983,7 +991,7 @@ MAIN - E
     line-height: 20px;
   }
 
-  .esg-box .esg-box2 .box4 {
+  .esg-box .esg-box2 .box4 a {
     flex: 1;
     display: flex;
     flex-flow: column;
