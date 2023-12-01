@@ -62,10 +62,10 @@ MAIN - S
   padding: 18px;
   font-size: 16px;
 }
-.esg .esg-content a {
+.esg .esg-content .btn {
   transition: all 0.3s;
 }
-.esg .esg-content a:hover {
+.esg .esg-content .btn:hover {
   opacity: 0.5;
 }
 
@@ -198,11 +198,11 @@ MAIN - S
     padding: 18px;
     font-size: 20px;
   }
-  .esg .esg-content a {
+  .esg .esg-content .btn {
     transition: all 0.3s;
     width: 100%;
   }
-  .esg .esg-content a:hover {
+  .esg .esg-content .btn:hover {
     opacity: 0.5;
   }
 
@@ -341,11 +341,11 @@ max-width:700px
     padding: 18px;
     font-size: 20px;
   }
-  .esg .esg-content a {
+  .esg .esg-content .btn {
     transition: all 0.3s;
     width: 100%;
   }
-  .esg .esg-content a:hover {
+  .esg .esg-content .btn:hover {
     opacity: 0.5;
   }
 
